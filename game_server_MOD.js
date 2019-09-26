@@ -260,9 +260,6 @@ module.exports = {
                         case 5:
                             result = state.password;
 							break;
-						case 5:
-                            result = state.raw.players;
-							break;
 						case 6:
 							result = state.players.map(a=> a.name);
 							break;       
